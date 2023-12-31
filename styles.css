@@ -1,0 +1,82 @@
+:root{
+    --titles-color:  #222;
+    --main-text-color: #777;
+    --accent-color: #FED136;
+    --placeholders-color: #BBB;
+    --white-color: white;
+}
+
+.header-logo{
+    color: var(--accent-color);
+    text-align: center;
+    font-family: Bilbo Swash Caps;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+}
+.header-nav-link{
+    color: var(--accent-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+    text-transform: uppercase;
+}
+.servises-title{
+color: var(--titles-color);
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: -1px;
+text-transform: uppercase;
+}
+.servises-name{
+    color: var(--titles-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: -0.45px;
+}
+.servises-description{
+    color: var(--main-text-color);
+    text-align: center;
+    font-family: RobotoSlab;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.35px;
+}
+.footer{
+    background-color: var(--titles-color);
+}
+.footer-title{
+    color: var(--white-color);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+.form-button{
+    color: var(--white-color);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    background-color: var(--accent-color);
+}
