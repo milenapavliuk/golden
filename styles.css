@@ -5,6 +5,26 @@
     --placeholders-color: #BBB;
     --white-color: white;
 }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.conteiner{
+    width: 942px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+.servises{
+    padding-top: 109px;
+    padding-bottom: 119px;
+}
+.header{
+    padding-top: 44px;
+}
 
 .header-logo{
     color: var(--accent-color);
@@ -58,6 +78,8 @@ text-transform: uppercase;
 }
 .footer{
     background-color: var(--titles-color);
+    padding-top: 92px;
+    padding-bottom: 115px;
 }
 .footer-title{
     color: var(--white-color);
@@ -68,15 +90,24 @@ text-transform: uppercase;
     line-height: normal;
     letter-spacing: -1px;
     text-transform: uppercase;
+    margin-bottom: 92px;
 }
 .form-button{
     color: var(--white-color);
     font-family: Montserrat;
-    font-size: 40px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: -1px;
     text-transform: uppercase;
     background-color: var(--accent-color);
+    width: 242px;
+    height: 68px;
+}
+.contact-name{
+    margin-bottom: 28px;
+}
+.contact-mail{
+    margin-bottom: 28px;
 }
